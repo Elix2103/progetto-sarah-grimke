@@ -1,9 +1,7 @@
 
 
 
-/*=======================
-POPOLA SELECT - Errori e modifiche
-=======================*/
+/*POPOLA SELECT*/
 function popolaSelect(idSelect, valori, numeric = false) { 
 	
 	
@@ -38,10 +36,8 @@ function popolaSelect(idSelect, valori, numeric = false) {
 
 
 
-/*=======================
-FILTRO MULTIPLO - Errori e modifiche
+/*FILTRO MULTIPLO*/
 
-=======================*/
 function filtraLettere() {
 	
 	const testo = document.getElementById("searchBar").value.toLowerCase().trim(); 
@@ -78,9 +74,9 @@ function filtraLettere() {
 }
 
 
-// =======================
-// OUTPUT RISULTATI
-// =======================
+
+/* OUTPUT RISULTATI*/
+
 function mostraRisultati(lista) {
 	const container = document.getElementById("risultati"); 
 	if (!container) return; 
@@ -191,9 +187,8 @@ function controllaParametriURL() {
   
 
 
-// =======================
-// EVENT LISTENER
-// =======================
+/* EVENT LISTENER*/
+
   
 document.addEventListener("DOMContentLoaded", () => {
 	popolaSelect("filtroTitolo", lettere.map(l => l.titolo));
@@ -215,6 +210,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 });
   
+
 
 
 
