@@ -90,7 +90,7 @@ header {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
 }
 
-.custom-navbar .navbar-toggler {            /* si potrebbe eliminare. ma poi che vuol dire??*/
+.custom-navbar .navbar-toggler {           
     background-color: #F3EEE9 !important;
 }
 
