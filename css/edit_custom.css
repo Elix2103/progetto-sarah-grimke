@@ -1,0 +1,381 @@
+
+
+
+/* Palette:
+   viola: #49326B
+   fucsia: #D814EB
+   crema:  #F3EEE9
+*/
+
+/*aspetti del body*/
+body {
+    font-family: "PT Serif", serif, Arial, sans-serif; 
+    font-size: 18px;
+    margin: 0; 
+    line-height: 1.3;
+    background-image: url('../jpg/July_11th_1837.jpg'); /*immagine sfondo*/
+    background-size: 100% auto; 
+    background-position: top center; 
+    background-repeat: repeat-y;
+} 
+
+  
+/*colore testo*/
+h1, h2, h3, h4, h5, h6, strong {
+    color: #49326B; 
+}
+  
+q {
+    color: #D814EB; 
+}
+  
+/*colore bottone consegna*/
+.consegna {
+    color: #F3EEE9; 
+}
+  
+/*colore tabella*/
+.tabella-title {
+    color: #49326B !important; 
+    font-size: 16px; 
+   
+}
+.tabella {
+    font-size: 16px; 
+}
+
+
+/*colore link*/
+a:hover, a:active{
+    color: #D814EB;
+}
+
+.link-main {
+    color: #49326B; 
+}
+
+.link-footer {
+    color: #F3EEE9 ;
+}
+
+/*Link pagine catalogo*/
+.page-link{
+    color: #49326B;
+}
+/*.page-link:hover, .page-link:active{
+    color: #D814EB;
+}*/
+
+/* Header */
+header {
+    font-family: "Great Vibes", cursive, Arial, sans-serif; 
+    padding: 50px; 
+}
+
+.custom-h2 {
+    font-size: 80px;
+      margin: 0; 
+      line-height: 1.3;
+}
+
+.custom-h1 {
+    font-size: 100px;
+      margin: 0; 
+      line-height: 1.3;
+}
+
+/*barra di navigazione*/
+.custom-navbar {
+    background-color: #49326B !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.custom-navbar .navbar-toggler {            /* si potrebbe eliminare. ma poi che vuol dire??*/
+    background-color: #F3EEE9 !important;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: #F3EEE9 !important;
+}
+
+.custom-navbar .navbar-brand {
+    color: #F3EEE9 !important;
+}
+
+.custom-dropdown .dropdown-menu{
+    background-color: #F3EEE9 !important;
+}
+
+.custom-dropdown .dropdown-item{
+    color: #49326B !important;
+}
+
+
+/*navbar hover nel dropdown*/
+
+.custom-dropdown .dropdown-item:hover {
+  background-color: #D814EB !important;
+  color: #F3EEE9 !important;
+}
+
+
+
+/*colore active navbar*/
+
+
+/* Active logo navbar */
+.custom-navbar .navbar-brand.active{
+    background-color: transparent !important; 
+    color: #D814EB !important;
+    font-weight: 700;
+}
+
+/* Active solo in navbar */
+.custom-navbar .nav-link.active {
+    background-color: transparent !important;
+    color: #D814EB !important; 
+    font-weight: 700; 
+}
+
+/* Active solo nel dropdown della navbar */
+.custom-dropdown .dropdown-item.active {
+    background-color: transparent !important;
+    color: #D814EB !important; 
+    font-weight: 700; 
+    
+}
+
+
+/* impostazioni sezione contenuto*/
+.centrare {
+    width: 100%; 
+    display: flex; 
+    justify-content: center; /* Centra la sezione */ 
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.contenitore { 
+    background-color: white; 	
+    padding: 40px; 
+    width: 80%;  
+    min-height: 300px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);     
+}
+
+.contenitore2 { 
+    background-color: white; 	
+    padding: 40px; 
+    width: 90%;  
+    min-height: 300px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);   
+}
+
+/*footer*/
+footer {
+    background-color: #49326B;
+    color: #F3EEE9;
+    padding: 40px;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+
+/*immagini thumbnail*/
+
+.img-thumbnail{
+    max-height: 600px;
+}
+
+/*stile icons*/
+
+.bi {
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+/*immagini web project plan*/
+.piano{
+    max-width: 70%; 
+}
+
+
+/* impostazioni word cloud*/
+
+.word-cloud {
+    display: flex;
+    flex-wrap: wrap; /* per andare a capo*/
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    min-height: 400px;
+    align-items: center;
+}
+   
+.cloud-link {
+    text-decoration: none;
+    transition: transform 0.3s, color 0.3s;
+    color: #49326B;
+    
+}
+
+
+
+
+/* CAROSELLI */
+
+/* freccette carosello*/
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #49326B;
+    border-radius: 5px;
+}
+
+
+/* CAROUSEL DONNE: indicatori */
+#carousel-donne .carousel-indicators button {
+    background-color: #49326B;
+    opacity: 0.5;
+}
+
+#carousel-donne .carousel-indicators button.active {
+    background-color: #D814EB;
+    opacity: 1;
+}
+
+/* CAROUSEL OPPRESSI: indicatori */
+#carousel-oppressi .carousel-indicators button {
+    background-color: #49326B;
+    opacity: 0.5;
+}
+
+#carousel-oppressi .carousel-indicators button.active {
+    background-color: #D814EB;
+    opacity: 1;
+}
+
+/* Testo caption: leggibile su qualunque sfondo */
+#carousel-donne .carousel-caption p,
+#carousel-oppressi .carousel-caption p {
+  color: #F3EEE9;
+  
+  text-shadow: 
+    0 2px 6px rgba(0,0,0,0.9),
+    0 0 2px rgba(0,0,0,0.9); 
+}
+
+/* Box responsivo */
+#carousel-donne .carousel-inner,
+#carousel-oppressi .carousel-inner {
+    width: 100%;
+    aspect-ratio: 3 / 4; /* larghezza/altezza */
+    overflow: hidden;
+} 
+
+/* Altezza coerente */
+#carousel-donne .carousel-item,
+#carousel-oppressi .carousel-item {
+    height: 100%;
+}
+
+/* Flex SOLO sulle slide che Bootstrap rende visibili */
+#carousel-donne .carousel-item.active,
+#carousel-donne .carousel-control-next,
+#carousel-donne .carousel-control-prev,
+#carousel-oppressi .carousel-item.active,
+#carousel-oppressi .carousel-control-next,
+#carousel-oppressi .carousel-control-prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Immagine: tutta visibile, no tagli */
+#carousel-donne .carousel-item img,
+#carousel-oppressi .carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* spazio tra cerca e catalogo*/
+.accordion-space {
+    margin-bottom: 1%;
+}
+
+/*colore accordion*/
+.accordion-button.collapsed{
+    background-color: #49326B;
+    color: #F3EEE9;
+}
+
+.accordion-button.collapsed::after {
+    filter: brightness(0) invert(1); 
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #F3EEE9;
+    
+}
+
+
+
+/*adattamento bottoni nel word cloud*/
+.dynamic-size {
+    
+    font-size: calc(1rem + (var(--weight) * 0.3rem));
+    border-radius: 15px;
+    margin: 5px;
+}
+
+
+.alert-warning{
+    background-color: #F3EEE9;
+    color: #49326B;
+    border-color: #49326B;
+}
+
+
+
+
+/* MEDIA QUERY */
+/* Lo sposterei in fondo*/
+@media screen and (max-width: 768px) {
+    body {
+      line-height: 1.25;
+      font-size: 16px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    .custom-h2 {
+        font-size: 40px;
+        margin: 0; 
+        line-height: 1.25;
+    }
+
+    .custom-h1 {
+        font-size: 60px;
+          margin: 0; 
+          line-height: 1.25;
+    }
+
+
+    /* adattamento font size dei bottoni del word cloud*/
+    .dynamic-size {
+        font-size: calc(0.8rem + (var(--weight) * 0.10rem));
+        margin: 2px;
+    }
+}
+
+
+
