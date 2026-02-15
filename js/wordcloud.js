@@ -1,4 +1,4 @@
-// js/wordcloud.js
+
 
 /* 
 SCOPO:
@@ -30,4 +30,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
         cloudContainer.appendChild(link); 
     });
+
 });
