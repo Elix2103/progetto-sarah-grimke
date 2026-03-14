@@ -58,13 +58,14 @@ a:hover, a:active{
     color: #F3EEE9 ;
 }
 
-/*Link pagine catalogo*/
+/*Link pagination item*/
 .page-link{
     color: #49326B;
+    font-weight: 700;
 }
-/*.page-link:hover, .page-link:active{
+.page-link:hover, .page-link:active{
     color: #D814EB;
-}*/
+}
 
 /* Header */
 header {
