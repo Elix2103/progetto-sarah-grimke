@@ -29,9 +29,9 @@ q {
     color: #D814EB; 
 }
   
-/*colore bottone consegna*/
-.consegna {
-    color: #F3EEE9; 
+/*grandezza carattere bottone consegna*/
+.row .consegna {
+      font-weight: 700;
 }
   
 /*colore tabella*/
